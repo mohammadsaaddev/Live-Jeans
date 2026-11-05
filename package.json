@@ -1,0 +1,1 @@
+{"name":"denim-work-ledger","version":"14.0.0","private":true,"type":"module","engines":{"node":">=22"},"scripts":{"test":"node --test tests/server.test.mjs tests/bridge.test.cjs","start":"node server/local.mjs"},"dependencies":{"google-auth-library":"^10.0.0"}}

@@ -1,0 +1,1 @@
+const SEED={version:1,lots:[],master:[],workers:[],jobs:[],payments:[]};const ARCHIVE=[];
