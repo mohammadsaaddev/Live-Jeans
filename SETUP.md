@@ -41,6 +41,10 @@ projects would have separate locks and would not protect one another.
 
 ## 3. Configure Vercel
 
+Automatic Git deployments are currently disabled by `git.deploymentEnabled: false`
+in vercel.json. Leave this in place while preparing the project. Enable it only
+when deployment is explicitly authorised and configuration is ready.
+
 Import the V14 project root (the folder containing package.json and vercel.json),
 not public/ alone. Use framework Other, no build command, output directory public.
 Root api/index.mjs supplies the Node.js function; /api/* rewrites route to it.
